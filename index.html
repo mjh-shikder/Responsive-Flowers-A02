@@ -1,21 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flower Market</title>
 
     <!-- Link CSS -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
 
     <!-- Tailwind CDN -->
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-</head>
+    <!-- Google Font noto Serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
-    <h1>Hello world</h1>
-</body>
+    <!-- Google Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+  </head>
+  <!-- Body -->
+  <body class="bg-[#f5f8ff]">
+    <header
+      class="max-w-[1140px] inter-font my-10 lg:mx-auto sm:mx-10 md:mx-10"
+    >
+      <nav class="flex w-full justify-between">
+        <div class="flex items-center">
+          <img src="./assets/logo.png" alt="Brand Logo" />
+        </div>
+
+        <div class="flex gap-7 items-center text-2xl">
+          <div class="hidden md:block space-x-7 mr-3">
+            <a class="font-bold text-[#252432]" href="./index.html">Home</a>
+            <a class="text-[#8987A1]" href="./index.html">Shop</a>
+            <a class="text-[#8987A1]" href="./index.html">Abouut Us</a>
+          </div>
+          <div class="flex items-center">
+            <a href="./index.html"
+              ><i class="fa-solid fa-cart-shopping"></i> Cart ($65)</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
 </html>
